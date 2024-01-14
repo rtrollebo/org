@@ -1,0 +1,14 @@
+
+#+AUTHOR: Robert Trollebø
+#+TITLE: Notebook
+
+
+* Documents
+[[file:../documents][documents]]
+* Assets
+** Public Digital Identities
+*** Public Encryption Keys
+- [[file:../assets/publickey_1.asc.txt][publickey_1.asc.txt]]
+- [[file:../assets/publickey_2.asc.txt][publickey_2.asc.txt]]
+* Sources
+[[file:sources.org][sources]]

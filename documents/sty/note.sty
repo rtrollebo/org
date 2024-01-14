@@ -1,0 +1,79 @@
+
+\ProvidesPackage{note}
+
+% ______basic packages____________
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{fancyhdr}	
+\usepackage{lastpage}
+\usepackage{ifthen}
+\usepackage{verbatim}
+
+%% XeTex
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\defaultfontfeatures{Ligatures=TeX,Mapping=tex-text}
+\setmainfont{Times New Roman}
+\setromanfont{Times New Roman} 
+\setsansfont{Arial} 
+\setmonofont{Courier New} 
+
+\usepackage[numbers]{natbib}
+\usepackage{parskip}
+\usepackage{array, xcolor}
+\usepackage{hyperref}
+\usepackage{mdwlist}
+\usepackage{pdfpages}
+\usepackage{wasysym} %% \phone 
+
+% hyperref definitions
+\hypersetup {
+  bookmarks=true,
+  pdftoolbar=true,
+  pdfmenubar=true,
+  pdftitle={Note},
+  pdfauthor={Robert Trollebø},
+  colorlinks=false,
+  pdfsubject={Note},
+  pdfkeywords={Note},
+  linkbordercolor={0.05 0.6 0.1},
+  citebordercolor={0.05 0.1 0.6},
+  filecolor=red,
+  urlbordercolor={0.05 0.6 0.1}
+}
+
+\pagestyle{fancy}
+
+% ______clearing head/foot________
+\fancyhead{}
+\fancyfoot{}
+
+% ______removing border___________
+% set to non-zero for border
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+
+% ______page layout_______________
+%%\marginparsep = 
+\hoffset = -10pt % -60
+%\oddsidemargin = 0pt
+%\evensidemargin = 0pt % only for use with 'twoside' doc.class option
+\headheight = 14pt
+\headsep = 50pt % 
+\topmargin = -50pt
+\textwidth = 380pt 
+\textheight = 650pt % added
+
+
+% ______header/footer_____________
+ \newcommand{\headmsg}{{\tiny Note }}
+\newcommand{\footmsg}{\tiny{Page {\thepage} of \pageref{LastPage}}} 
+\fancyhead[L]{\headmsg}
+\fancyfoot[L]{\footmsg} 
+
+% ______bibl. elem. style_________
+\bibliographystyle{plainnat}	
+
