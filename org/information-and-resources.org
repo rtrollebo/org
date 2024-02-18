@@ -1,0 +1,51 @@
+
+
+
+* Military Investment
+
+Military investment by country, valid from APril 4th 2023 through December 31 2024.
+
+Nations below the 2% guideline.
+|-----------------+-------------------------------------------------------|
+| Nation          | Cost share "at 31" following the accession of Finland |
+|-----------------+-------------------------------------------------------|
+|                 |                                                       |
+| Montenegro      |                                                0.0288 |
+| Iceland         |                                                0.0636 |
+| North Macedonia |                                                0.0771 |
+| Albania         |                                                0.0900 |
+| Estonia         |                                                0.1237 |
+| Latvia          |                                                0.1581 |
+| Luxembourg      |                                                0.1678 |
+| Slovenia        |                                                0.2255 |
+| Lithuania       |                                                0.2543 |
+| Croatia         |                                                0.2968 |
+| Bulgaria        |                                                0.3623 |
+| Slovakia        |                                                0.5113 |
+| Hungary         |                                                0.7526 |
+| Finland         |                                                0.9057 |
+| Portugal        |                                                1.0396 |
+| Czechia         |                                                1.0462 |
+| Greece          |                                                1.0477 |
+| Romania         |                                                1.2168 |
+| Denmark         |                                                1.2997 |
+| Norway          |                                                1.7610 |
+
+Nations above the 2% guideline. 
+|-----------------+-------------------------------------------------------|
+| Nation          | Cost share "at 31" following the accession of Finland |
+|-----------------+-------------------------------------------------------|
+| Belgium         |                                                2.0852 |
+| Poland          |                                                2.9591 |
+| Netherlands     |                                                3.4193 |
+| Türkiye         |                                                4.6838 |
+| Spain           |                                                5.9365 |
+| Canada          |                                                6.8166 |
+| Italy           |                                                8.7017 |
+| France          |                                               10.3963 |
+| United Kingdom  |                                               11.1801 |
+| Germany         |                                               16.1964 |
+| United States   |                                               16.1964 |
+|-----------------+-------------------------------------------------------|
+
+Source: [[https://www.nato.int/cps/en/natohq/topics_67655.htm][Funding NATO]]
