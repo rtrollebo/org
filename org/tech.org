@@ -3,27 +3,29 @@
 
 
 
-* IDL
-** Implementations
-*** NV5 (standard commercial implementation)
+
+* List of (rare) programming languages
+** IDL
+*** Implementations
+**** NV5 (standard commercial implementation)
 :PROPERTIES:
 :license: proprietary
 :compatibility: IDL 8.0
 :END:
 https://www.nv5geospatialsoftware.com/Products/IDL
-*** Fawlty Language
+**** Fawlty Language
 :PROPERTIES:
 :license: proprietary
 :compatibility: IDL 8.0
 :END:
 https://www.flxpert.hu/fl/
-*** GNU Data Language
+**** GNU Data Language
 :PROPERTIES:
 :license: GNU GPL 2.0
 :compatibility: IDL 7.0, IDL 8.0 (partly)
 :END:
 https://gnudatalanguage.github.io/
-** Documentation, resources, and libraries
+*** Documentation, resources, and libraries
 - [[http://www.idlcoyote.com/][IDL coyote]]
 
 
