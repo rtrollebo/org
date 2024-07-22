@@ -1,0 +1,107 @@
+
+
+
+
+* Medium
+** Communication System
+*** Radio Communication
+Ref
+https://nkom.no/
+Half-duplex radio communication
+**** Citizen Band Radio Communication
+***** PMR446
+
+[[https://kenwoodcommunications.co.uk/files/file/comms/uk/pmr446/PMR446-White-Paper-V6_18AUG2016_JT_KB.pdf][PMR446 license free radio]]
+
+[[https://www.hfunderground.com/wiki/PMR446][Recommended channel (analog) usage]]
+
+
+|----------------------------+-------------------------------------------------------------------------------------------|
+| Channel                    | Usage                                                                                     |
+|----------------------------+-------------------------------------------------------------------------------------------|
+|                            |                                                                                           |
+| Channel 1 - 446.00625 MHz  | Emergency Calling Channel 1/0 (CSQ - carrier squelch, no tone)                            |
+| Channel 1 - 446.00625 MHz  | Prepper Survivalist Emergency Analog Family Channel 1/1 (67.0 Hz CTCSS, code 1)           |
+| Channel 1 - 446.00625 MHz  | Emergency Calling Channel 1/12 (100.0 Hz CTCSS, code 12)                                  |
+| Channel 1 - 446.00625 MHz  | Truckers and Car-to-Car Channel 1/9 (91.5 Hz CTCSS, code 9)                               |
+| Channel 2 - 446.01875 MHz  | Campers, Campsites, etc. Channel 2/0 (CSQ - carrier squelch, no tone)                     |
+| Channel 2 - 446.01875 MHz  | Geocaching Channel 2/0 (CSQ - carrier squelch, no tone)                                   |
+| Channel 2 - 446.01875 MHz  | Mountain Channel (German-speaking countries) Channel 2/0 (CSQ - carrier squelch, no tone) |
+| Channel 3 - 446.03125 MHz  | Prepper Survivalist Emergency Analog Channel 3/0 (CSQ - carrier squelch, no tone)         |
+| Channel 3 - 446.03125 MHz  | Prepper Survivalist Emergency Analog Survivalist Channel 3/1 (67.0 Hz CTCSS, code 1)      |
+| Channel 3 - 446.03125 MHz  | Prepper Survivalist Emergency Analog Channel 3/8 (88.5 Hz CTCSS, code 8)                  |
+| Channel 3 - 446.03125 MHz  | Mountain Channel (Poland) Channel 3/14 (107.2 Hz CTCSS, code 14)                          |
+| Channel 4 - 446.04375 MHz  | 4WD / 4X4 Off road Channel 4/4 (77.0 Hz CTCSS, code 4)                                    |
+| Channel 4 - 446.04375 MHz  | Drone/Pilot Communications Intercom Channel 4/14 (107.2 Hz CTCSS code 14)                 |
+| Channel 4 - 446.04375 MHz  | Boat to Boat Channel 4/16 (114.8 Hz CTCSS code 16)                                        |
+| Channel 5 - 446.05625 MHz  | Scouts Channel 5/5 (79.7 Hz CTCSS, code 5)                                                |
+| Channel 6 - 446.06875 MHz  | Hunters Channel 6/12 (100.0 Hz CTCSS, code 10)                                            |
+| Channel 6 - 446.06875 MHz  | Free Radio Network Channel 6/20 (131.8 Hz CTCSS, code 20)                                 |
+| Channel 7 - 446.08125 MHz  | Prepper/Emergency Disaster Preparedness Channel - fallback                                |
+| Channel 7 - 446.08125 MHz  | Mountain Channel Mountaineering Alpine Channel 7/7 (85.4 Hz CTCSS, code 7)                |
+| Channel 8 - 446.09375 MHz  | DX Calling Channel 8/0 (CSQ - carrier squelch, no tone)                                   |
+| Channel 8 - 446.09375 MHz  | Prepper Survivalist Emergency Analog Calling Channel 8/1 (67.0 Hz CTCSS, code 1)          |
+| Channel 8 - 446.09375 MHz  | DX Calling Channel 8/8 (88.5 Hz CTCSS, code 8)                                            |
+| Channel 8 - 446.09375 MHz  | Mountain Channel Italy Channel 8/16 (114.8 Hz CTCSS, code 16)                             |
+| Channel 9 - 446.10625 MHz  |                                                                                           |
+| Channel 10 - 446.11875 MHz |                                                                                           |
+| Channel 11 - 446.13125 MHz |                                                                                           |
+| Channel 12 - 446.14375 MHz |                                                                                           |
+| Channel 13 - 446.15625 MHz |                                                                                           |
+| Channel 14 - 446.16875 MHz |                                                                                           |
+| Channel 15 - 446.18125 MHz |                                                                                           |
+| Channel 16 - 446.19375 MHz |                                                                                           |
+|----------------------------+-------------------------------------------------------------------------------------------|
+
+**** Procedure words
+
+Procedure words
+
+|----+----------------------------+------------------------+-----------------------------------------------------------------------------------------|
+|    | English/FMSO 108           | Norsk (nødnett)        | Description and usage                                                                   |
+|----+----------------------------+------------------------+-----------------------------------------------------------------------------------------|
+|  1 |                            | 9-8 (Ni-åtte)          | Request response from all units. Optionally, 12, if no reply is required.               |
+|  2 | Radio check                |                        | How is the signal strength. Request reply.                                              |
+|  3 |                            | Bytt posisjon          | Relocate to improve radio signal connection                                             |
+|  4 | This is                    | Dette er               | The name or identification of the sender or station.                                    |
+|  5 | Do you read                | Erkjenn                | Require acknowledgement of message received and understood, by 7.                       |
+|  6 |                            | Forbered               | Prepare the following message, action or order.                                         |
+|  7 | Roger                      | Forstått               | Message received and understood. Response to 5.                                         |
+|  8 | Wilco                      |                        | Message received, and order will be executed/complied to.                               |
+|  9 | Say again all after/before | Gjenta alt etter/foran | Repeat the message after/before the specified key word.                                 |
+| 10 | Say again                  | Gjenta                 | Repeat the entire message.                                                              |
+| 11 |                            | Ingen kvittering       | No response. Used with 1 when no response is required.                                  |
+| 12 |                            | Ingeting hørt - slutt. | No reply from receiver. Clear communication on channel by "slutt".                      |
+| 13 |                            | Iverksett              | Execute.                                                                                |
+| 14 |                            | Jeg gjentar alt etter  |                                                                                         |
+| 15 |                            | Jeg gjentar            |                                                                                         |
+| 16 | I read back                | Jeg leser tilbake      | A response to 20.                                                                       |
+| 17 |                            | Jeg verifiserer        | As response to 37. Repeat back to sender.                                               |
+| 18 |                            | Kvitter                | Reply with 22.                                                                          |
+| 19 |                            | Kvitter så langt       | Reply with 22 for the message received so far.                                          |
+| 20 | Read back                  | Les tilbake            | Read entire message. 16 is expected.                                                    |
+| 21 |                            | Melding følger         |                                                                                         |
+| 22 | Copy                       | Mottatt                | Acknoledge message received.                                                            |
+| 23 |                            | No play                | The following message is a description of a real event                                  |
+| 24 | Over                       | Over                   | End of message. Waiting for reply.                                                      |
+| 25 |                            | Posisjon               | Request for position.                                                                   |
+| 26 |                            | Radiotaushet           | Cease all traffic on the channel, until sender re-establish communication               |
+| 27 |                            | Radiotaushet oppheves  | Re-establish communication.                                                             |
+| 28 | Correction                 | Rettelse               | Sender corrects current message, or as alternative to 17 when a correction is required. |
+| 29 |                            | Riktig                 | Affirmative reply when requested to verify a message.                                   |
+| 30 | Out                        | Slutt                  | End of conversation. Group or channel is cleared, and another conversation may start.   |
+| 31 |                            | Talltegn               |                                                                                         |
+| 32 |                            | Tid                    |                                                                                         |
+| 33 |                            | Transitter til         | Convey this message to receiver.                                                        |
+| 34 |                            | Transitt fra           | Message is conveyed from sender.                                                        |
+| 35 | Wait out                   | Vent - Slutt           | Pause, and abort current conversation. Resume at a later point.                         |
+| 36 | Wait over                  | Vent                   | Pause.                                                                                  |
+| 37 |                            | Verifiser              | Verify message.                                                                         |
+| 38 |                            | Viktig melding         |                                                                                         |
+|----+----------------------------+------------------------+-----------------------------------------------------------------------------------------|
+
+
+Ref.:
+
+https://kokom.no/wp-content/uploads/2021/12/20211017-Kap-12-Kommunikasjon-i-nodnett.pdf
+U.S. Marine Corps training document FMSO 108, "understanding the following PROWORDS and their respective definitions is the key to clear and concise communication procedures"
