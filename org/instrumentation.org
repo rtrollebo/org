@@ -7,6 +7,7 @@
 *** Radio Communication
 Ref
 https://nkom.no/
+
 Half-duplex radio communication
 **** Citizen Band Radio Communication
 ***** PMR446
@@ -103,5 +104,5 @@ Procedure words
 
 Ref.:
 
-https://kokom.no/wp-content/uploads/2021/12/20211017-Kap-12-Kommunikasjon-i-nodnett.pdf
-U.S. Marine Corps training document FMSO 108, "understanding the following PROWORDS and their respective definitions is the key to clear and concise communication procedures"
+- https://kokom.no/wp-content/uploads/2021/12/20211017-Kap-12-Kommunikasjon-i-nodnett.pdf
+- U.S. Marine Corps training document FMSO 108, "understanding the following PROWORDS and their respective definitions is the key to clear and concise communication procedures"

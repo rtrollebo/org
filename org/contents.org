@@ -14,3 +14,5 @@
 [[file:information-and-resources.org][information-and-resources]]
 * Sources
 [[file:sources.org][sources]]
+* Instrumentation
+[[file:instrumentation.org][instrumentation]]
